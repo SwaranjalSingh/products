@@ -3,7 +3,8 @@
 ## Overview 
 
 ### 1. WHAT THIS APPLICATION DOES? 
-	This application helps user to calculate final price of product based on its product category. User 	can perform the following operations in the application.
+	This application helps user to calculate final price of product based on its product category. 
+	User can perform the following operations in the application.
 	
 	1. Add product
 	2. Get product
@@ -30,7 +31,7 @@
 		
 	3. Change mysql username and password as per your installation
 		a. open src/main/resources/application.properties
-		b. change spring.datasource.username and spring.datasource.password as per your mysql 		 	    		   installation
+		b. change spring.datasource.username and spring.datasource.password as per your mysql installation
 		
 	4. Run the app using maven
 		a. mvn spring-boot:run
