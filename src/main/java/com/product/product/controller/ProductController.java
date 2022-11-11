@@ -27,9 +27,8 @@ public class ProductController {
 	{
 		 List<Product> products = productService.getProducts();
 		 products.stream().forEach(each-> {
-			 each.setFinalPrice((each.getProductPrice()+each.getCharges().getGst()
-					 +each.getCharges().getDelivery())-(each.getDiscount()/100)*(each.getProductPrice()+each.getCharges().getGst()
-							 +each.getCharges().getDelivery()));
+			 each.setFinalPrice((int) ((each.getProductPrice()+(each.getCharges().getGst()/100)*each.getProductPrice()+each.getCharges().getDelivery())
+			  -(each.getDiscount()/100)*(each.getProductPrice()+(each.getCharges().getGst()/100)*each.getProductPrice()+each.getCharges().getDelivery())));
 		 });
 		 return products;
 	}

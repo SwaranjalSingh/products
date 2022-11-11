@@ -16,3 +16,41 @@ item:
         path:
           - products
     response: []
+  - name: localhost:8080/products
+    request:
+      method: POST
+      header: []
+      url:
+        raw: localhost:8080/products
+        host:
+          - localhost
+        port: '8080'
+        path:
+          - products
+    response: []
+  - name: localhost:8080/products/
+    request:
+      method: PUT
+      header: []
+      url:
+        raw: localhost:8080/products/
+        host:
+          - localhost
+        port: '8080'
+        path:
+          - products
+          - ''
+    response: []
+  - name: localhost:8080/products/
+    request:
+      method: DELETE
+      header: []
+      url:
+        raw: localhost:8080/products/
+        host:
+          - localhost
+        port: '8080'
+        path:
+          - products
+          - ''
+    response: []
