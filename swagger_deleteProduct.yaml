@@ -16,4 +16,5 @@ item:
         path:
           - products
           - ''
+          
         response: []
