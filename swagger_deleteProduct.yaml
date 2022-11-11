@@ -1,0 +1,19 @@
+info:
+  _postman_id: c63c53c3-85a9-4966-a4c6-fc875210b11d
+  name: swagger_deleteproduct
+  schema: https://schema.getpostman.com/json/collection/v2.1.0/collection.json
+  _exporter_id: '24318499'
+item:
+  - name: localhost:8080/products/
+    request:
+      method: DELETE
+      header: []
+      url:
+        raw: localhost:8080/products/
+        host:
+          - localhost
+        port: '8080'
+        path:
+          - products
+          - ''
+        response: []

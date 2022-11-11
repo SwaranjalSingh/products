@@ -1,0 +1,19 @@
+info:
+  _postman_id: fdc2e27d-2a2c-43ff-bdf4-2f1fa2db2cb0
+  name: swagger_putProduct
+  schema: https://schema.getpostman.com/json/collection/v2.1.0/collection.json
+  _exporter_id: '24318499'
+item:
+  - name: localhost:8080/products/
+    request:
+      method: PUT
+      header: []
+      url:
+        raw: localhost:8080/products/
+        host:
+          - localhost
+        port: '8080'
+        path:
+          - products
+          - ''
+    response: []
